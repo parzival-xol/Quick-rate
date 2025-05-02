@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "QuickRate",
+  "version": "1.1",
+  "description": "Select a rating with buttons, fill a random comment, and submit the form.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Rate This Page"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
